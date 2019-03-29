@@ -2,6 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.4.
 
+## Setting up Sentry
+
+Sign up for a sentry account and create a project for this angular app: https://sentry.io/signup/
+Configure your SDK in `src/app/app.module.ts` by replacing the example DSN with one from the angular project you have created. 
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
